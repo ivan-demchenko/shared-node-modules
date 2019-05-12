@@ -1,0 +1,15 @@
+{
+  "name": "share_node_modules",
+  "version": "0.1.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bolt": {
+    "workspaces": [
+      "apps/*"
+    ]
+  },
+  "dependencies": {
+    "bavaria-ipsum": "^1.0.3",
+    "lorem-ipsum": "^1.0.6"
+  }
+}

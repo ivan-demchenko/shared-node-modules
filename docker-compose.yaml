@@ -1,0 +1,26 @@
+version: '3.2'
+services:
+
+  base:
+    build: .
+    volumes:
+      - "pkgs:/code/node_modules"
+
+  app1:
+    build:
+      context: apps/app1
+    depends_on:
+      - base
+    volumes:
+      - "pkgs:/code/node_modules"
+
+  app2:
+    build:
+      context: apps/app2
+    depends_on:
+      - base
+    volumes:
+      - "pkgs:/code/node_modules"
+
+volumes:
+  pkgs:

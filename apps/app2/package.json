@@ -1,0 +1,15 @@
+{
+  "name": "app2",
+  "version": "0.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bavaria-ipsum": "^1.0.3"
+  }
+}
